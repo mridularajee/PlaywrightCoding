@@ -44,7 +44,6 @@ test('confirmbox', async ({ page }) => {
       await expect(page.locator("#demo2")).toHaveText("You pressed OK!");
 
     await page.waitForTimeout(2000)
-
 })
 
 test.only('promptalert', async ({ page }) => {
