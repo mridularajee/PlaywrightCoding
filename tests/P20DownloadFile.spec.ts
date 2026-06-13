@@ -15,5 +15,6 @@ test('logicnextgen', async ({ page }) => {
     await download.saveAs('downloads/sample2.jpg');
 
     await page.waitForTimeout(20000)
+    
 
 })

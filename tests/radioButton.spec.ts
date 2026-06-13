@@ -7,7 +7,7 @@ test ('Tutorial Point', async({page}) =>{
     const radioButton:Locator =  page.locator('[value="igottwo"]')
     await radioButton.check()
 
-      const radioButton2:Locator =  page.locator('[value="igotthree"]')
+    const radioButton2:Locator =  page.locator('[value="igotthree"]')
     await radioButton2.check()
 
     await page.waitForTimeout(9000) 

@@ -12,8 +12,8 @@ test('logicnextgen', async ({ page }) => {
     await page.keyboard.press('Control+V');
     await page.keyboard.press('Tab');
     await page.keyboard.press('Tab');
-      await page.keyboard.press('Tab');
-      await page.keyboard.press('Control+V');
+    await page.keyboard.press('Tab');
+     await page.keyboard.press('Control+V');
 
     await page.waitForTimeout(20000)
 

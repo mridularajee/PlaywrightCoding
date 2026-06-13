@@ -25,7 +25,7 @@ test('logicnextgen', async ({ page }) => {
     const mca: Locator = page.locator('#mca')
     await mca.click()
 
-     const mba: Locator = page.locator('#mba')
+    const mba: Locator = page.locator('#mba')
     await mba.click()
 
     await page.waitForTimeout(90000)
