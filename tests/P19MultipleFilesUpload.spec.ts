@@ -10,6 +10,7 @@ test('logicnextgen', async ({ page }) => {
     // console.log(fileCount)
 
   await page.waitForTimeout(2000);
+  
     const fileCount = await page.locator('#uploadMultipleFile1').evaluate((input: any) => input.files.length);
 
     await page.waitForTimeout(2000);

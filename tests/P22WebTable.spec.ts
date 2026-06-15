@@ -52,8 +52,6 @@ test('logicnextgen', async ({ page }) => {
  
     expect(EmployeeFirstName).toHaveLength(2);
 
-    // calculate the price of books?
-
 
     await page.waitForTimeout(20000)
 

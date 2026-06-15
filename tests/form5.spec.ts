@@ -56,4 +56,4 @@ test('logicnextgen', async ({ page }) => {
     await page.waitForTimeout(500000);
 
 
-})
+})  
