@@ -13,7 +13,7 @@ test ('Flipkart Lunch', async({page}) =>{
     const eMail:Locator = page.locator('#input-email');
     await eMail.fill('mridula@gmail.com');
 
-    const telephone:Locator = page.locator('#input-telephone');
+    const telephone:Locator = page.locator('#input-telephone1');
     await telephone.fill('11111111');
     
     
@@ -21,6 +21,6 @@ test ('Flipkart Lunch', async({page}) =>{
     const password:Locator = page.locator('#input-password');
     await password.fill('7890');
 
-   await page.waitForTimeout(50000);
+   await page.waitForTimeout(20000);
 
 });

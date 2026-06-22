@@ -6,7 +6,7 @@ test ('guru99', async({page}) =>{
 
        const firstName:Locator =  page.locator('[name="firstName"]')
        await firstName.fill("Mridula")
-
+ 
        const lastName:Locator = page.locator('[name="lastName"]')
        await lastName.fill("Singh")
 

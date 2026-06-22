@@ -6,7 +6,8 @@ test('logicnextgen', async ({ page }) => {
     await expect(table).toBeVisible();
 
 
-    //1. count rows in table
+    //1. count rows in table 
+    
     const rows: Locator = table.locator("tr");
     const rowCount: number = await rows.count();
     console.log("Number of rows in a table: ", rowCount);
