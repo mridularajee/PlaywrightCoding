@@ -1,5 +1,3 @@
-
-
 import { Locator, test, expect } from '@playwright/test';
 
 test('logicnextgen', async ({ page }) => {

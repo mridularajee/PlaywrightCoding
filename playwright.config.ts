@@ -26,9 +26,9 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
 
-   screenshot: 'only-on-failure',  //take ss when fail
+   screenshot: 'only-on-failure',  //Agar koi test fail hota hai, tab Playwright automatically us test ka screenshot le lega.
 
-   video: 'retain-on-failure',
+   video: 'retain-on-failure',  //Har test ke liye Playwright video record karta hai, lekin agar test pass ho jaye to video delete kar deta hai. Sirf failed test ki video save rakhta hai.
 
 
 
