@@ -1,23 +1,47 @@
 import { Locator, test, expect } from '@playwright/test';
 
-
-test.beforeAll('beforeAll', async () => {
-    
-     console.log("browser launch")  
-});
-test.afterAll('afterAll', async () => {
-    
-     console.log("browser close")   
-});
+// beforeAll → Runs once before all tests.
+// beforeEach → Runs before every test.
+// afterEach → Runs after every test.
+// afterAll → Runs once after all tests.
 
 
-test.beforeEach('beforeeach', async () => {
-    
-     console.log(" login")   
+//******************flow***********************//
+
+// browser launch
+
+// login
+// this is Test1 ......
+// logout
+
+// login
+// this is Test2 ......
+// logout
+
+// login
+// this is Test3 ......
+// logout
+
+// login
+// this is Test4 ......
+// logout
+
+// browser close
+
+test.beforeAll(async () => {
+  console.log("browser launch");
 });
-test.afterEach('afterEach', async () => {
-    
-     console.log("logout")    
+
+test.afterAll(async () => {
+  console.log("browser close");
+});
+
+test.beforeEach(async () => {
+  console.log("login");
+});
+
+test.afterEach(async () => {
+  console.log("logout");
 });
 
 test('Test1', async ({page}) => {

@@ -1,6 +1,11 @@
 import { Locator, test, expect } from '@playwright/test';
 
-test.describe('sanity', async () => {
+// sanity aur smoke Playwright ke keywords nahi hain. 
+// Ye sirf group ke naam hain jo developers/testers apni testing strategy ke hisaab se rakhte hain.
+// npx playwright test --grep "smoke"
+// npx playwright test --grep "sanity" 
+
+test.describe('sanity', () => {
     test('login', async ({ page }) => {
         console.log("login")
     })
@@ -15,7 +20,7 @@ test.describe('sanity', async () => {
 })
 
 
-test.describe('smoke', async () => {
+test.describe('smoke', () => {
 
     test('search', async ({ page }) => {
         console.log("search")
