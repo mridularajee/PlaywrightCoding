@@ -1,9 +1,9 @@
 import { test, expect, Locator  , Page} from '@playwright/test'
-test.describe.configure({ mode: 'serial' });
+test.describe.configure({ mode: 'serial' });  //Is file ke saare tests ek ke baad ek chalenge.(Agar Test1 fail ho gaya, to Test2 aur Test3 skip ho jayenge.Iska use tab hota hai jab tests ek dusre par depend karte hain.)
 
-let page:Page;  //global
+let page:Page;  //global variable
 
-test.beforeAll('Open app', async ({ browser }) => {
+test.beforeAll(async ({ browser }) => {
 
     page = await browser.newPage();
 
