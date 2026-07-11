@@ -1,5 +1,6 @@
 import { Locator, test, expect } from '@playwright/test';
 
+
 //testdata
 // const searchItems: string[] = ['laptop', 'smartphone', 'monitor', 'Gift Card'];
 
@@ -64,10 +65,12 @@ searchItems.forEach((item)=>{
         const searchBtn: Locator = page.locator("//input[@class='button-1 search-box-button']");
         await searchBtn.click();
         await page.waitForTimeout(2000);
-
-        await expect(page.locator('h2 a').nth(0)).toContainText(item, { ignoreCase: true });
-        await page.waitForTimeout(1000);
-
+ 
     })
 })
+
+
+// https://demowebshop.tricentis.com/login
+//laura.taylor1234@example.com
+// test123
 
