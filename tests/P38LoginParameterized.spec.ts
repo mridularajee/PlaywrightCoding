@@ -1,11 +1,9 @@
 import { Locator, test, expect } from '@playwright/test';
 
 
-
 const loginTestData: string[][] = [
     ["rajemridul@gmail.com", "123456"],
 ];
-
 
 for(const [email, password] of loginTestData){
 test(`Login test for ${email} and ${password}`, async ({ page }) => {
@@ -24,8 +22,6 @@ test(`Login test for ${email} and ${password}`, async ({ page }) => {
     const loginButton = page.locator("#login_button_kapoor1").click()
 
     await page.waitForTimeout(2000)
-
-
 
 })
 }

@@ -1,6 +1,5 @@
 import { Locator, test, expect } from '@playwright/test';
 
-
 test('tutorialspoint', async ({ page }) => {
 
     await page.goto("https://demowebshop.tricentis.com/");

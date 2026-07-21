@@ -1,0 +1,37 @@
+[
+    {
+        "fname": "Akku12",
+        "lname": "Singh",
+        "email": "akku0101@gmail.com",
+        "password": "123456",
+        "cpassword": "123456"
+    },
+    {
+        "fname": "Akansha12",
+        "lname": "Budhani",
+        "email": "akanshabudhani101@gmail.com",
+        "password": "123456",
+        "cpassword": "123456"
+    },
+    {
+        "fname": "Nitesh12",
+        "lname": "Kumar",
+        "email": "niteshkumar12345@gmail.com",
+        "password": "123456",
+        "cpassword": "123456"
+    },
+    {
+        "fname": "Mridula12",
+        "lname": "Raje",
+        "email": "rajemridul101@gmail.com",
+        "password": "123456",
+        "cpassword": "123456"
+    },
+    {
+        "fname": "Mridul12",
+        "lname": "Singh",
+        "email": "mridulaa101010@gmail.com",
+        "password": "123456",
+        "cpassword": "123456"
+    }
+]
